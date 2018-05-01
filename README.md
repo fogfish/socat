@@ -12,6 +12,19 @@ Erlang native command line utility to cat files via network socket.
 
 ## Getting started
 
+The command line utility requires Erlang runtime. You can either download the utility
+```
+curl -O -L https://github.com/fogfish/socat/raw/master/dist/socat
+``` 
+
+or build it from sources
+```
+git clone https://github.com/fogfish/socat
+cd socat
+make
+```
+
+Use it in the following manner
 
 ```
 cat FILE | socat URL

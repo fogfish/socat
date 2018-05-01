@@ -1,0 +1,18 @@
+{application, socat,
+   [
+      {description, "socat"},
+      {vsn,         "0.1.0"},
+      {modules,     []},
+      {registered,  []},
+      {applications,[
+         kernel
+        ,stdlib
+        ,datum
+        ,pipe
+        ,getopt
+        ,knet
+        ,clue
+      ]},
+      {env, []}
+   ]
+}.
